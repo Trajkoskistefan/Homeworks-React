@@ -1,0 +1,31 @@
+
+.header-container {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-bottom: 4px solid red;
+    
+  }
+  
+  
+  .fixed-header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  @media (max-width: 768px) {
+    .header-container {
+        padding: 15px;
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
