@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import ListItem from "./components/homework-2/ListItem";
+import family from "./components/homework-2/family/familyData";
+import Parent from "./components/homework-2/family/Parent";
 // import MyHeaderComponent from "./components/headerComponent";
 // import MyMenuComponent from "./components/menuComponents";
 // import MyFooterComponent from "./components/footerComponent";
@@ -25,8 +27,9 @@ function App() {
       <MyFooterComponent/> */}
       {/* <UserProfileClass name=" James Hetfield" age="61" hobby=" Hunter"/>
       <UserProfileFunction name=" Lars Ulrich" age="59" hobby=" Tennis player"/> */}
-      <h1>Task List</h1>
-      <ListItem items={tasks} />
+      {/* <h1>Task List</h1>
+      <ListItem items={tasks} /> */}
+      <Parent family={family}/>
     </div>
   );
 }
