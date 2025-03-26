@@ -1,0 +1,39 @@
+.user-profile-card {
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  }
+  
+  .user-profile-content {
+    padding: 16px;
+  }
+  
+  .user-profile-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 12px;
+  }
+  
+  .user-profile-info {
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-profile-info p {
+    font-size: 18px;
+    color: #ff0000;
+    margin: 8px 0;
+  }
+  
+  .content-wrapper { display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
