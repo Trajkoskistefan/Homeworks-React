@@ -3,6 +3,7 @@ import "./App.css";
 import ListItem from "./components/homework-2/ListItem";
 import family from "./components/homework-2/family/familyData";
 import Parent from "./components/homework-2/family/Parent";
+import ColorPicker from "./components/homework-5/colorPicker";
 // import MyHeaderComponent from "./components/headerComponent";
 // import MyMenuComponent from "./components/menuComponents";
 // import MyFooterComponent from "./components/footerComponent";
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <div className="content-wrapper">
+      <ColorPicker/>
       {/* <MyHeaderComponent />
       <MyMenuComponent/>
       <MyFooterComponent/> */}
@@ -29,7 +31,7 @@ function App() {
       <UserProfileFunction name=" Lars Ulrich" age="59" hobby=" Tennis player"/> */}
       {/* <h1>Task List</h1>
       <ListItem items={tasks} /> */}
-      <Parent family={family}/>
+      {/* <Parent family={family}/> */}
     </div>
   );
 }
