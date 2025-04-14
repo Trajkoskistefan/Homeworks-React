@@ -4,6 +4,7 @@ import ListItem from "./components/homework-2/ListItem";
 import family from "./components/homework-2/family/familyData";
 import Parent from "./components/homework-2/family/Parent";
 import ColorPicker from "./components/homework-5/colorPicker";
+import MultiInputForm from "./components/homework-6/multiInputForm";
 // import MyHeaderComponent from "./components/headerComponent";
 // import MyMenuComponent from "./components/menuComponents";
 // import MyFooterComponent from "./components/footerComponent";
@@ -11,19 +12,19 @@ import ColorPicker from "./components/homework-5/colorPicker";
 // import UserProfileClass from "./components/homework-2/classcomponents/UserProfileClass";
 // import UserProfileFunction from "./components/homework-2/functionalcomponents/UserProfileFunction";
 
-const tasks = [
-  { name: "Learn React", priority: "High" },
-  { name: "Do Groceries", priority: "Low" },
-  { name: "Exercise", priority: "High" },
-  { name: "Read a Book", priority: "Medium" },
-];
+// const tasks = [
+//   { name: "Learn React", priority: "High" },
+//   { name: "Do Groceries", priority: "Low" },
+//   { name: "Exercise", priority: "High" },
+//   { name: "Read a Book", priority: "Medium" },
+// ];
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="content-wrapper">
-      <ColorPicker/>
+      <MultiInputForm />
       {/* <MyHeaderComponent />
       <MyMenuComponent/>
       <MyFooterComponent/> */}
